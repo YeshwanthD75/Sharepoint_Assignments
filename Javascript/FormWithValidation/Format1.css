@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    background-color:#e42311;
+}
+table{
+    background-color: rgb(51, 54, 215);
+    padding: 10px;
+}
+td {
+    padding: 10px 15px;
+    text-align: left;
+}
+#action{
+    text-align: center;
+}
