@@ -1,0 +1,42 @@
+<html>
+
+<head>
+
+<title></title>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+
+var jsobject = {
+
+'USA': 'Washington D.C.', 
+'India': 'New Delhi', 
+'UK': 'London', 
+'Australia': 'Canberra'
+};
+
+
+var result = '';
+
+$.each(jsobject, function (key, value) { 
+    result += key + ' - ' + value + '<br/>';
+});
+
+$('#resultDiv').html(result);
+
+});
+
+</script>
+
+</head>
+
+<body style="font-family:Arial">
+
+<div id="resultDiv"></div>
+
+</body>
+
+</html>

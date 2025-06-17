@@ -1,0 +1,15 @@
+<HTML>
+    <HEAD> </HEAD>
+    <BODY>
+    <input id='userInput' size=60> 
+    <button  onClick='userSubmit()'>Submit</button><BR>
+    <P><div id='result'></div>
+    
+    <script type='text/javascript'>
+    function userSubmit() {
+    var UI=document.getElementById('userInput').value;  
+    document.getElementById('result').innerHTML='You typed: '+UI;
+    }
+    </script>
+    </BODY>
+    </HTML>

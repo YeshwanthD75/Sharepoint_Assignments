@@ -1,0 +1,40 @@
+<html>
+
+<head>
+
+<title></title>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+    alert($('li').map(function (index, element){return $(element).text();}).get() );
+
+});
+
+</script>
+
+</head>
+
+<body style="font-family:Arial">
+
+<ul>
+
+<li>US</li>
+
+<li>India</li>
+
+<li>UK</li>
+
+<li>Canada</li>
+
+<li>Australia</li>
+
+</ul>
+
+<div id="resultDiv"></div>
+
+</body>
+
+</html>

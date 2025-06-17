@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>the title</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var title = $("em").attr("title");
+      alert("Title is: " + title);  // <-- This shows the popup
+      $("#divid").text(title);
+    });
+  </script>  
+</head>
+<body>
+  <div>
+    <strong>Hello</strong>
+    <p>Another one in between</p>
+    <em title="Bold and Brave">This is first paragraph.</em>
+    <p id="myid">This is second paragraph.</p>
+    <div id="divid"></div> <!-- title will show here -->
+  </div>
+</body>
+</html>

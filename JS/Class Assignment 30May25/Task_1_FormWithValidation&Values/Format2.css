@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+table {
+    background-color: #222;
+    padding: 10px;
+    color: white;
+    border: 1px solid #555;
+}
+td {
+    padding: 10px 15px;
+    text-align: left;
+}
+#setFormat, #action {
+    text-align: center;
+}
+input, textarea, select {
+    background-color: #333;
+    color: white;
+    border: 1px solid #888;
+}
